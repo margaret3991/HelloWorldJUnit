@@ -21,7 +21,7 @@ public class HelloWorldTest {
 	public void givenSystemOutRedirection_whenInvokePrintln_thenOutputCaptorSuccess() {
     	HelloWorld.main(new String[] {"arg1", "arg2", "arg3"});
         
-    	Assert.assertEquals("Hello", outputStreamCaptor.toString()
+    	Assert.assertEquals("Hello, World!", outputStreamCaptor.toString()
       	.trim());
 	}
 	
