@@ -4,6 +4,8 @@
 After committing/uploading your Java files. Click "Actions" to see the report. \
 When committing, GitHub will ask you to enter a message. It helps to easily understand why a change has been made at a particular time and distinguish between each commission.\
 ![image](https://user-images.githubusercontent.com/54456351/119812799-66df8680-be9d-11eb-8fec-24645619be13.png)
+<br />
+<br />
 
 
 ## Action
