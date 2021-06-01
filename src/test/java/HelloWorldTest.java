@@ -18,24 +18,51 @@ public class HelloWorldTest {
 	}
 	
 	@Test
-	public void givenSystemOutRedirection_whenInvokePrintln_thenOutputCaptorSuccess() {
+	public void testMainMethod() {
     	HelloWorld.main(new String[] {"arg1", "arg2", "arg3"});
         
-    	Assert.assertEquals("Hello, World!", outputStreamCaptor.toString()
-      	.trim());
+    	Assert.assertEquals("The main() method should print out \"Hello, World!\" \nCheck carefully!" 
+			    + "One missing/extra character like space can make this test case failed\n"
+			    ,"Hello, World!", outputStreamCaptor.toString());
 	}
 	
-/*
 	@Test
-	@Ignore
-	public void HelloTest() {
-		HelloWorld.main(new String[] {"arg1", "arg2", "arg3"});
-		//Assert.assertEquals("Hello", HelloWorld.hello);
-		//System.out.println(HelloWorld.hello);
-		Assert.assertEquals("Hello, World!", HelloWorld.hello);
-	
+	public void testpPrintStarPiramidMethod() {
+    	HelloWorld.printStarPiramid();
+        
+    	Assert.assertEquals( "The main() method should print out \n" +
+			    "\"    *\"\n" +
+        		    "\"   ***\"\n" +
+         		    "\"  *****\"\n" +
+        		    "\" *******\"\n" +
+        		    "\"*********\"\n \nCheck carefully!" +
+			    "One missing/extra character like space can make this test case failed\n",
+			    "    *\n" +
+        		    "   ***\n" +
+         		    "  *****\n" +
+        		    " *******\n" +
+        		    "*********\n"
+			    ,outputStreamCaptor.toString());
 	}
-*/
+	
+	@Test
+	public void testPrintFaceMethod() {
+    	HelloWorld.printFace();
+        
+    	Assert.assertEquals( "The main() method should print out \n" +
+			    "\" +\"\"\"\"\"+ \"\n" +
+        		    "\"[| o o |]\"\n" +
+         		    "\" |  ^  | \"\n" +
+        		    "\" | '-' | \"\n" +
+        		    "\" +-----+ \"\n \nCheck carefully!" +
+			    "One missing/extra character like space can make this test case failed\n",
+			   " +\"\"\"\"\"+ \n" +
+        		   "[| o o |]\n" +
+         		   " |  ^  | \n" +
+        		   " | '-' | \n" +
+        		   " +-----+ \n"
+			    , outputStreamCaptor.toString());
+	}
 	
 	@After
 	public void tearDown() {
