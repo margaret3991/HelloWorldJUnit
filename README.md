@@ -16,7 +16,7 @@ This means the workflow is in progress, and you have to wait until it changes th
 ![image](https://user-images.githubusercontent.com/54456351/119813655-65628e00-be9e-11eb-8c27-8b42a9e71304.png)
 This means the workflow is failed. You can see your details in the reports inside it.\
 ![image](https://user-images.githubusercontent.com/54456351/119813818-95119600-be9e-11eb-82e5-d247541062cb.png)
-This means the workflow is passed, but you should check the reports to check your code style is good enough and any misspell occurs.
+This means the workflow is passed, but you should check the reports to check your code style is good enough and any misspell occurs.\
 This is the workflow's details:\
 ![image](https://user-images.githubusercontent.com/54456351/119811221-b7ee7b00-be9b-11eb-933a-05b0733ba569.png)
 
@@ -25,13 +25,13 @@ This is the workflow's details:\
 ![image](https://user-images.githubusercontent.com/54456351/119812525-15cf9280-be9d-11eb-8125-f24d61ebd43b.png)
 The Test Report shows the result of how many test cases that are passed, failed, or skipped.\
 - Click "Test Report" for the report of test cases\
-- Don't worry about "Build Step." It will be red if any test case failed. \
+- Don't worry about "Build Step." It will be red if any test case failed.\
 
 
 ### checkstyle
 ![image](https://user-images.githubusercontent.com/54456351/119812559-1ec06400-be9d-11eb-907d-e1b71a97a447.png)
 ![image](https://user-images.githubusercontent.com/54456351/119814435-3f89b900-be9f-11eb-8578-2272566be21c.png)
 
-checkstyle help to check if you code meet the Google Java Style Guide. \
+checkstyle help to check if you code meet the Google Java Style Guide.\
 Click "checkstyle" for the report of style\
 
