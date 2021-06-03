@@ -21,7 +21,7 @@ This means the workflow is failed. You can see your details in the reports insid
 
 This means the workflow is passed, but you should check the reports to check your code style is good enough and any misspell occurs.\
 ![image](https://user-images.githubusercontent.com/54456351/119813818-95119600-be9e-11eb-82e5-d247541062cb.png) <br /> <br /> <br />
-This is the workflow's details:\
+When the workflow finish, you can see its details:\
 ![image](https://user-images.githubusercontent.com/54456351/119811221-b7ee7b00-be9b-11eb-933a-05b0733ba569.png) <br />
 
 
