@@ -35,12 +35,14 @@ The Test Report shows the result of how many test cases that are passed, failed,
 The following is an example a Test Report with 3 failed tests. <br />
 ![image](https://user-images.githubusercontent.com/54456351/120717148-e8c24780-c47b-11eb-8464-2a16b8391343.png) <br />
 Several reasons are suggested for the test case's failure. After "expected" is the correct answer and after "but was" is your answer. <br />
-If you want to check the test case and see what methods it calls, you can see the test case and path in this line. ![image](https://user-images.githubusercontent.com/54456351/120717574-a3eae080-c47c-11eb-802a-7c779b649c17.png)
+If you want to check the test case and see what methods it calls, you can see the test case and path in this line. 
+![image](https://user-images.githubusercontent.com/54456351/120717574-a3eae080-c47c-11eb-802a-7c779b649c17.png)
 
+ <br /> <br /> 
 Let analyze this failed test.
 ![image](https://user-images.githubusercontent.com/54456351/120717698-db598d00-c47c-11eb-8286-c52541d59de8.png) <br />
 This test case calls the main() method and receives different outputs than expected. <br />
-It expects "Hello, World!" but receives "Hello, World! " (with an extra space at the end).
+It expects "Hello, World!" but receives "Hello, World! " (with an extra space at the end). The extra space is the reason of this failure.
 
 ### Checkstyle
 ![image](https://user-images.githubusercontent.com/54456351/119812559-1ec06400-be9d-11eb-907d-e1b71a97a447.png) <br />
