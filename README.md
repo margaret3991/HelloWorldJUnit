@@ -45,11 +45,11 @@ You can access each code line violating the coding standard through "Findings(37
 
 The following is some comments you might find in the report:
 - **"'method def modifier' has incorrect indentation level 4, expected level should be 2."** Google style uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment.
-- "Line is longer than 100 characters (found 109)." A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. 
-- "'{' at column 5 should be on the previous line." '{' should not be in a new line. For example,  <br />
+- **"Line is longer than 100 characters (found 109)."** A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. 
+- **"'{' at column 5 should be on the previous line."** '{' should not be in a new line. For example,  <br />
 if (condition) {  <br />
     statement; <br />
 }
-- "'if' construct must use '{}'s." Even when you only have 1 statement in your constructor, you should uses '{}' 
-- "Only one statement per line allowed." Code should only have 1 statement per line for readability.
-- "WhitespaceAround: '=' is not preceded with whitespace" and "WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" There should be a space before and after '+', '-', '*', '/', '=', '<', '>', ... ';' should be followed by a space if there is anything after it
+- **"'if' construct must use '{}'s."** Even when you only have 1 statement in your constructor, you should uses '{}' 
+- **"Only one statement per line allowed."** Code should only have 1 statement per line for readability.
+- **"WhitespaceAround: '=' is not preceded with whitespace"** and **"WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)"** There should be a space before and after '+', '-', '*', '/', '=', '<', '>', ... ';' should be followed by a space if there is anything after it
