@@ -24,9 +24,7 @@ This means the workflow is passed, but you should check the reports to check you
 When the workflow finish, you can see its details:\
 ![image](https://user-images.githubusercontent.com/54456351/119811221-b7ee7b00-be9b-11eb-933a-05b0733ba569.png) <br />
 
-<br />
-<br />
-<br />
+
 ### Test Report
 ![image](https://user-images.githubusercontent.com/54456351/119812525-15cf9280-be9d-11eb-8125-f24d61ebd43b.png) <br />
 The Test Report shows the result of how many test cases that are passed, failed, or skipped.
