@@ -24,7 +24,9 @@ This means the workflow is passed, but you should check the reports to check you
 When the workflow finish, you can see its details:\
 ![image](https://user-images.githubusercontent.com/54456351/119811221-b7ee7b00-be9b-11eb-933a-05b0733ba569.png) <br />
 
-
+<br />
+<br />
+<br />
 ### Test Report
 ![image](https://user-images.githubusercontent.com/54456351/119812525-15cf9280-be9d-11eb-8125-f24d61ebd43b.png) <br />
 The Test Report shows the result of how many test cases that are passed, failed, or skipped.
@@ -46,6 +48,9 @@ Let analyze this failed test.
 This test case calls the main() method and receives different outputs than expected. <br />
 It expects "Hello, World!" but receives "Hello, World! " (with an extra space at the end). The extra space is the reason of this failure.
 
+<br />
+<br />
+<br />
 ### Checkstyle
 ![image](https://user-images.githubusercontent.com/54456351/119812559-1ec06400-be9d-11eb-907d-e1b71a97a447.png) <br />
 ![image](https://user-images.githubusercontent.com/54456351/119814435-3f89b900-be9f-11eb-8578-2272566be21c.png) <br />
