@@ -50,6 +50,7 @@ It expects "Hello, World!" but receives "Hello, World! " (with an extra space at
 <br />
 <br />
 ### Checkstyle
+
 ![image](https://user-images.githubusercontent.com/54456351/119812559-1ec06400-be9d-11eb-907d-e1b71a97a447.png) <br />
 ![image](https://user-images.githubusercontent.com/54456351/119814435-3f89b900-be9f-11eb-8578-2272566be21c.png) <br />
 
