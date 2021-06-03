@@ -32,8 +32,10 @@ The Test Report shows the result of how many test cases that are passed, failed,
 - Don't worry about "Build Step." It will be red if any test case failed.
 <br /> 
 <br />
+
 The following is an example a Test Report with 3 failed tests. <br />
-![image](https://user-images.githubusercontent.com/54456351/120717148-e8c24780-c47b-11eb-8464-2a16b8391343.png) <br />
+![image](https://user-images.githubusercontent.com/54456351/120717148-e8c24780-c47b-11eb-8464-2a16b8391343.png) 
+<br />
 Several reasons are suggested for the test case's failure. After "expected" is the correct answer and after "but was" is your answer. <br />
 If you want to check the test case and see what methods it calls, you can see the test case and path in this line. 
 ![image](https://user-images.githubusercontent.com/54456351/120717574-a3eae080-c47c-11eb-802a-7c779b649c17.png)
