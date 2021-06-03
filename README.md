@@ -35,5 +35,9 @@ The Test Report shows the result of how many test cases that are passed, failed,
 ![image](https://user-images.githubusercontent.com/54456351/119814435-3f89b900-be9f-11eb-8578-2272566be21c.png) <br />
 
 Checkstyle is a tool for checking Java source code for adherence to the Google Java Style Guide.\
-Click "checkstyle" to view the report.
+Click "checkstyle" to view the report. The report should look like this:
+![image](https://user-images.githubusercontent.com/54456351/120709943-5ec1b100-c472-11eb-93a1-1aafa7de830a.png) <br />
+You can access each line violating the coding standard through "Findings(37)"
+![image](https://user-images.githubusercontent.com/54456351/120710983-b01e7000-c473-11eb-873d-e57b75aeab5c.png) <br />
+
 
