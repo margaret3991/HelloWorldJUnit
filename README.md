@@ -44,7 +44,7 @@ You can access each code line violating the coding standard through "Findings(37
 ![image](https://user-images.githubusercontent.com/54456351/120710983-b01e7000-c473-11eb-873d-e57b75aeab5c.png) <br />
 
 The following is some comments you might find in the report:
-- "'method def modifier' has incorrect indentation level 4, expected level should be 2." Google style uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment.
+-** "'method def modifier' has incorrect indentation level 4, expected level should be 2."** Google style uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment.
 - "Line is longer than 100 characters (found 109)." A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. 
 - "'{' at column 5 should be on the previous line." '{' should not be in a new line. For example,  <br />
 if (condition) {  <br />
