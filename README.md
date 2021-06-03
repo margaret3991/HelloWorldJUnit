@@ -40,7 +40,9 @@ Checkstyle is a tool for checking Java source code for adherence to the Google J
 Click "checkstyle" to view the report. The report should look like this:
 ![image](https://user-images.githubusercontent.com/54456351/120709943-5ec1b100-c472-11eb-93a1-1aafa7de830a.png) <br />
 <br /> <br /> <br />
-You can access each line violating the coding standard through "Findings(37)"
+You can access each code line violating the coding standard through "Findings(37)"
 ![image](https://user-images.githubusercontent.com/54456351/120710983-b01e7000-c473-11eb-873d-e57b75aeab5c.png) <br />
 
-
+The following is some comments you might find in the report:
+- "'method def modifier' has incorrect indentation level 4, expected level should be 2." Google style uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment.
+- "Line is longer than 100 characters (found 109)." A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. 
